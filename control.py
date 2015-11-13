@@ -69,3 +69,14 @@ for n in range(15):
         continue
         print("this should not print")
     print(n, " free")
+
+for element in [1, 2, 3]:
+    print(element)
+for element in (1, 2, 3):
+    print(element)
+for key in {'one':1, 'two':2}:
+    print(key)
+for char in "123":
+    print(char)
+for line in open("sample1.txt"):
+    print(line, end='')
