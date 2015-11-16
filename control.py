@@ -80,3 +80,11 @@ for char in "123":
     print(char)
 for line in open("sample1.txt"):
     print(line, end='')
+
+s = 'qwertzu'
+it = iter(s)
+print(it)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
