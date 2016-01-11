@@ -1,0 +1,10 @@
+queue_manager:
+    name: HHU1
+    server_channel: JAVA.CHANNEL
+    host: mqserverlocal1
+    port: 1414
+mq_user:
+    username: mqm
+    password: passpass
+query_queue:
+    q_name: TEST.Q.7
