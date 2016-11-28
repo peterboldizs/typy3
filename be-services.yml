@@ -1,0 +1,25 @@
+# backend service integration configuration
+javabackend:
+  name: angrestsample
+  user: fradijanos
+  passwd: passpass
+  service:
+    type: restful
+    base: http://localhost:48080/angrestsample-web/rest/customer/
+    ops:
+      allcust: findAll
+      custbyid: findById
+
+mongodb:
+  name: mongoservice
+  user: admin
+  passwd: pass
+  service:
+    type: database
+    base: cust
+    ops:
+      a: b
+      c: d
+
+
+

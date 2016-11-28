@@ -1,22 +1,22 @@
 __author__ = 'fnxuser'
-import os
-import shutil
 import glob
-import sys
-import re
 import math
+import os
 import random
+import re
+import shutil
 import statistics
+import sys
 from datetime import date
 
 print(os.getcwd())
 # for p in (dir(os)):
 #    print(p)
-os.chdir('/home/fnxuser/pytest')
+os.chdir('/home/peter/Projects/pytest')
 # os.system('touch testfile1.txt')
 os.system('date >> testfile2.txt')
 shutil.copyfile('testfile2.txt', 't2.txt')
-os.chdir('/home/fnxuser/PycharmProjects/typy3')
+os.chdir('/home/peter/PythonProjects/typy3')
 for pf in glob.glob('*.py'):
     print(pf)
 
